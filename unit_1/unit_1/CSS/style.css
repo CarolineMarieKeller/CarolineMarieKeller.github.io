@@ -16,9 +16,5 @@ a {
 }
 
 a:hover {
-	color: #800080;
-}
-
-a:visted {
-	color: #663399;
+	text-decoration: underline;
 }
