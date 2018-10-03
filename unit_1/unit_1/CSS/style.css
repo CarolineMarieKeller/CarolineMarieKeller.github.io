@@ -12,9 +12,4 @@ h2 {
 
 a {
 	color: #FF00FF;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
 }
