@@ -5,3 +5,12 @@ body {
 h1,p {
 	color: #DC143C;
 }
+
+h2 {
+	color: #FF7F50;
+}
+
+a {
+	color: #FF00FF;
+	text-decoration: none;
+}
