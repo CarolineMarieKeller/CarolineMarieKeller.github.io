@@ -14,8 +14,8 @@ p{
 	text-align: justify;
 }
 
-#steve{
-	font-size: 22px;
+.steve{
+	font-size: 16px;
 }
 
 h2 {
@@ -34,11 +34,10 @@ h3{
 }
 
 #second{
-	font-weight:normal;
+	font-style: italic;
 }
 
 a {
 	color: #CD853F;
 	text-decoration: none;
-	font-style: italic;
 }
