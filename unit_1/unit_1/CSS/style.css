@@ -1,15 +1,27 @@
 body {
 	background-color: #FFFAF0;
+	font-family: Calibri, san-serif;
 }
 
-h1,p {
+h1{
 	color: #FF4500;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p{
+	color: #696969;
+	text-align: justify;
 }
 
 h2 {
 	color: #F4A460;
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 a {
 	color: #CD853F;
+	text-decoration: none;
+	font-style: italic;
 }
