@@ -20,9 +20,17 @@ h2 {
 	font-weight: normal;
 }
 
+#first{
+	font-weight: bold;
+}
+
 h3{
 	color: #696969;
 	text-transform: uppercase;
+}
+
+#second{
+	font-weight:bold;
 }
 
 a {
