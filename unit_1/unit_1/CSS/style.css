@@ -33,6 +33,10 @@ h3{
 	text-transform: uppercase;
 }
 
+#explore{
+	text-align: center;
+}
+
 #second{
 	font-style: italic;
 	font-weight: bold;
