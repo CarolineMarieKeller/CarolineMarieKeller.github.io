@@ -1,11 +1,7 @@
 body {
-	background-color: #fff;
+	background-color: url("images/steve.jpg") fixed center;
 	background-size: cover;
 	font-family: Georgia, san-serif;
-}
-
-img {
-	align-items: center;
 }
 
 h1{
