@@ -1,5 +1,5 @@
 body {
-	background-color: local(images/steve.jpg);
+	background-color: local("images/steve.jpg");
 	background-size: cover;
 	font-family: Georgia, san-serif;
 }
