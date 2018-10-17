@@ -35,16 +35,15 @@ h2 {
 
 h3{
 	color: #696969;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 #explore{
 	text-align: center;
 }
 
-#second{
-	font-style: italic;
-	font-weight: bold;
+#second {
+	text-align: center;
 }
 
 a {
