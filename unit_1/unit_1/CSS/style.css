@@ -1,11 +1,11 @@
 body {
-	background-color: url("file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_1/unit_1/images/steve.jpg") fixed center;
+	background-image: url("file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_1/unit_1/images/steve.jpg");
 	background-size: cover;
-	font-family: Georgia, san-serif;
+	font-family: Calibri, san-serif;
 }
 
 h1{
-	color: #FF4500;
+	color: #F4A460;
 	text-align: center;
 	text-transform: uppercase;
 }
