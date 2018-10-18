@@ -44,6 +44,12 @@ h3 {
 #list {
 	text-align:left;
 }
+
+li {
+	color: #ffffff;
+	font-size: 18px;
+}
+
 a {
 	color: #fff;
 }
