@@ -1,7 +1,8 @@
 body{
 	font-family: "Bookman", san serif;
-	background: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve3.jpg) repeat;
+	background: url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: #A9F0AF;
 	text-align: center;
 }
