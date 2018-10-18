@@ -1,8 +1,8 @@
 body{
 	font-family: Bookman, san serif;
 	background: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve2.jpg);
-	background-size: cover;
-	color: rgb(122,26,6);
+	background-size: cover, bottom;
+	color: #DD692E;
 	text-align: center;
 }
 
@@ -17,6 +17,7 @@ h2 {
 
 hr {
 	width: 250;
+
 }
 
 img {
@@ -30,6 +31,6 @@ h3 {
 
 .justify {
 	text-align: justify;
-	color: #66809E;
+	color: #2E2824;
 	font-size: 18px;
 }
