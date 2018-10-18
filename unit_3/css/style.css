@@ -40,6 +40,9 @@ h3 {
 	font-size: 18px;
 }
 
+#list {
+	text-align:left;
+}
 a {
 	color: #fff;
 }
