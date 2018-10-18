@@ -1,10 +1,51 @@
-body{
-	font-family: Bookman, san serif;
-	background: url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	color: #85BD2A;
+body, html{
+	font-family: Bookman, Arial, sans serif;
+	color: #FFC435;
 	text-align: center;
+	margin: 0;
+}
+
+nav {
+	margin: 0;
+  	padding: 0;
+}
+
+#hero{
+	width: 100%;
+	background: linear-gradient(rgba(198,91,43,0.3),rgba(198,91,43,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	text-align: right;
+	font-weight: bold;
+	height: 450px;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+
+}
+
+#mainmenu {
+	text-align: right;
+	margin: 0px;
+	padding: 20px;
+}
+
+#mainmenu li {
+	display: inline;
+	color: #fff;
+	padding: 20px;
+	margin: 0px;
+}
+
+#mainmenu li a{
+	color: #FF96B8
+}
+
+#heroname{
+	padding: 50px;
 }
 
 h1 {
@@ -27,7 +68,7 @@ h2 {
 }
 
 hr {
-	width: 250;
+	width: 250px;
 
 }
 
@@ -42,7 +83,7 @@ h3 {
 
 .justify {
 	text-align: justify;
-	color: #ffffff;
+	color: #7B7C94;
 	font-size: 18px;
 }
 
@@ -51,10 +92,10 @@ h3 {
 }
 
 li {
-	color: #ffffff;
+	color: #7B7C94;
 	font-size: 18px;
 }
 
 a {
-	color: #fff;
+	color: #FF96B8;
 }
