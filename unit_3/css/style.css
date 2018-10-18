@@ -2,8 +2,21 @@ body{
 	font-family: Bookman;
 	background-color: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve2.jpg);
 	color: rgb(122,26,6);
+	text-align: center;
 }
 
 h1 {
 	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+}
+
+.justify {
+	text-align: justify;
+	color: #66809E;
 }
