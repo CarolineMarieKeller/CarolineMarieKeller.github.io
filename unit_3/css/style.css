@@ -2,7 +2,7 @@ body{
 	font-family: Bookman, san serif;
 	background: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve3.jpg);
 	background-size: cover;
-	color: #ffffff;
+	color: #5FF095;
 	text-align: center;
 }
 
@@ -17,6 +17,7 @@ h2 {
 
 #slogan {
 	font-style: italic;
+	color: #fff;
 }
 
 hr {
