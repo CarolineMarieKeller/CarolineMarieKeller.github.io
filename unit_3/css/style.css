@@ -22,7 +22,12 @@ img {
 	height: 40%;
 }
 
+h3 {
+	font-size: 22px;
+}
+
 .justify {
 	text-align: justify;
 	color: #66809E;
+	font-size: 18px;
 }
