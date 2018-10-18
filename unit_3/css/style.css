@@ -1,5 +1,5 @@
 body{
-	font-family: Bookman;
+	font-family: Bookman, san serif;
 	background-color: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve2.jpg);
 	color: rgb(122,26,6);
 	text-align: center;
@@ -15,7 +15,7 @@ h2 {
 }
 
 hr {
-	width: 400;
+	width: 300;
 }
 
 p {
