@@ -1,6 +1,7 @@
 body{
 	font-family: Bookman, san serif;
 	background: url(file:///Users/carolinekeller/Desktop/carolinemariekeller.github.io/unit_3/images/steve2.jpg);
+	background-size: cover;
 	color: rgb(122,26,6);
 	text-align: center;
 }
