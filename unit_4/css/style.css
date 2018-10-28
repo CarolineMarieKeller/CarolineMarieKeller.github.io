@@ -36,7 +36,8 @@ ul {
 }
 
 .calltoaction{
-	margin: 30px 0 20px 0;
+	margin: 50px 10px 30px 10px;
+	text-align: center;
 }
 
 #mainmenu {
@@ -54,6 +55,7 @@ span {
 	color: #FFC0CB;
 	font-family: 'Lobster', Arial, sans-serif;
 }
+
 #mainmenu li {
 	color: #FFF;
 	display: inline;
@@ -115,8 +117,8 @@ h2 {
 }
 
 hr {
-	width: 250px;
-
+	max-width: 500px;
+	margin: auto;
 }
 
 img {
@@ -136,7 +138,7 @@ h3 {
 	text-align: justify;
 	font-size: 19px;
 	font-weight: 100px;
-	margin: 0 20px 0 20px;
+	margin: 0 20px 30px 20px;
 	line-height: 1.5em;
 }
 
@@ -159,6 +161,7 @@ li {
 a {
 	color: #FFC435;
 	text-decoration: none;
+	text-align: center;
 }
 
 .button{
@@ -170,4 +173,5 @@ a {
 	padding: 10px 20px 10px 20px;
 	border: 1px #FFFACD solid;
 	text-decoration: none;
+	text-align: center;
 }
