@@ -44,12 +44,12 @@ ul {
 }
 
 #heroname{
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	padding: 50px;
 }
 
 h1 {
+	font-family: 'Acme', Arial, sans serif;
 	text-align: center;
 	font-weight:400;
 }
