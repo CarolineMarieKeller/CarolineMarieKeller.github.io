@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Roboto);
+
+body {
+	font-family: 'Lobster', sans serif; 
+}
+
+#hero{
+	width: 100%;
+	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin: 0;
+  	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+#mainmenu {
+	color: #FFC435;
+	text-align: right;
+	margin: 0px;
+	padding: 20px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: 450;
+	text-shadow: 1.75px 1.75px #000;
+}
+
+#mainmenu li {
+	color: #FFF;
+	display: inline;
+	padding: 20px;
+	margin: 0px;
+}
+
+#mainmenu li a{
+	color: #FFC435;
+}
+
+#heroname{
+	color: #FFC0CB;
+	padding: 50px;
+	font-weight: 550;
+	letter-spacing: 1.5px;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px #000;
+}
+
+h1 {
+	text-align: center;
+	font-weight:400;
+}
+
+h2 {
+	text-align: center;
+}
+
+#slogan {
+	font-style: none;
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	text-shadow: 1.75px 1.75px #000;
+}
+
+#litter_pick {
+	background-color: #fff;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+#litter {
+	text-align: center;
+}
+
+.orphans {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+	background-position: center;
+	margin: 10px;
+}
+
+#second_steve {
+	background: url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
+	background-size: cover;
+}
+
+hr {
+	width: 250px;
+
+}
+
+img {
+	height: 40%;
+}
+
+h3 {
+	color: #FFC0CB;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 100;
+}
+
+.justify {
+	font-family: 'Roboto', Arial, sans serif;
+	color: #FFC435;
+	text-align: justify;
+	color: #7B7C94;
+	font-size: 19px;
+	font-weight: 100px;
+	margin: 0 20px 0 20px;
+	line-height: 1.5em;
+}
+
+#list {
+	font-family: 'Roboto', Arial, sans serif;
+	color: #FFC435;
+	text-align:left;
+	line-height: 1.5em;
+}
+
+li {
+	color: #7B7C94;
+	font-size: 19px;
+	line-height: 1.5em;
+	font-weight: 100px;
+}
+
+a {
+	color: #FFC435;
+	font-weight: 200;
+	font-size: 22px;
+}
