@@ -112,18 +112,21 @@ h3 {
 	color: #7B7C94;
 	font-size: 18px;
 	margin: 0 20px 0 20px;
+	line-height: 1.5em;
 }
 
 #list {
 	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	text-align:left;
+	line-height: 1.5em;
 }
 
 li {
 	font-family: 'Acme', Arial, sans serif;
 	color: #7B7C94;
 	font-size: 18px;
+	line-height: 1.5em;
 }
 
 a {
