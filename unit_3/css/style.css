@@ -1,12 +1,10 @@
 @import <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
-nav {
-	margin: 0;
-  	padding: 0;
+body {
+	font-family: 'Acme', Arial, sans serif;
 }
 
 #hero{
-	font-family: 'Acme', Arial, sans serif;
 	width: 100%;
 	background: linear-gradient(rgba(198,91,43,0.3),rgba(198,91,43,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
 	background-size: cover;
@@ -18,13 +16,16 @@ nav {
 	padding: 0;
 }
 
+nav {
+	margin: 0;
+  	padding: 0;
+}
+
 ul {
 	list-style: none;
-
 }
 
 #mainmenu {
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	text-align: right;
 	margin: 0px;
@@ -32,7 +33,6 @@ ul {
 }
 
 #mainmenu li {
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	display: inline;
 	padding: 20px;
@@ -40,7 +40,6 @@ ul {
 }
 
 #mainmenu li a{
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 }
 
@@ -50,7 +49,6 @@ ul {
 }
 
 h1 {
-	font-family: 'Acme', Arial, sans serif;
 	text-align: center;
 	font-weight:400;
 }
@@ -61,7 +59,6 @@ h2 {
 }
 
 #slogan {
-	font-family: 'Acme', Arial, sans serif;
 	font-style: italic;
 	color: #fff;
 }
@@ -103,11 +100,10 @@ h3 {
 	color: #FFC435;
 	text-align: center;
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .justify {
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	text-align: justify;
 	color: #7B7C94;
@@ -117,20 +113,17 @@ h3 {
 }
 
 #list {
-	font-family: 'Acme', Arial, sans serif;
 	color: #FFC435;
 	text-align:left;
 	line-height: 2em;
 }
 
 li {
-	font-family: 'Acme', Arial, sans serif;
 	color: #7B7C94;
 	font-size: 18px;
 	line-height: 2em;
 }
 
 a {
-	font-family: 'Acme', Arial, sans serif;
 	color: #FF96B8;
 }
