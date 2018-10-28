@@ -35,6 +35,10 @@ ul {
 	list-style: none;
 }
 
+.calltoaction{
+	margin: 30px 0 20px 0;
+}
+
 #mainmenu {
 	color: #FFC435;
 	text-align: right;
@@ -139,8 +143,10 @@ h3 {
 #list {
 	font-family: 'Roboto', Arial, sans-serif;
 	color: #FFC435;
-	text-align:left;
+	text-align:center;
 	line-height: 1.5em;
+	padding: 0;
+	list-style-type: none;
 }
 
 li {
@@ -151,6 +157,11 @@ li {
 }
 
 a {
+	color: #FFC435;
+	text-decoration: none;
+}
+
+.button{
 	color: #ffffff;
 	text-shadow: .5px 1px #FFD700;
 	font-weight: 200;
