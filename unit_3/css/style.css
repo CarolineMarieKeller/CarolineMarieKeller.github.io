@@ -6,6 +6,7 @@ nav {
 }
 
 #hero{
+	font-family: 'Acme', Arial, sans serif;
 	width: 100%;
 	background: linear-gradient(rgba(198,91,43,0.3),rgba(198,91,43,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
 	background-size: cover;
