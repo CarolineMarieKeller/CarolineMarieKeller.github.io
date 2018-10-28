@@ -1,7 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster|Roboto);
 
 body {
-	font-family: 'Lobster', sans serif; 
+	font-family: 'Lobster', sans-serif; 
+}
+
+.wrapper {
+	width: auto;
+	margin: auto;
+	background: #fff;
 }
 
 #hero{
@@ -34,6 +40,10 @@ ul {
 	text-shadow: 1.5px 1.5px #000;
 }
 
+span {
+	color: #FFC0CB;
+	font-family: 'Lobster', Arial, sans-serif;
+}
 #mainmenu li {
 	color: #FFF;
 	display: inline;
@@ -112,10 +122,9 @@ h3 {
 }
 
 .justify {
-	font-family: 'Roboto', Arial, sans serif;
-	color: #FFC435;
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #8A8A8A;
 	text-align: justify;
-	color: #7B7C94;
 	font-size: 19px;
 	font-weight: 100px;
 	margin: 0 20px 0 20px;
@@ -123,21 +132,26 @@ h3 {
 }
 
 #list {
-	font-family: 'Roboto', Arial, sans serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	color: #FFC435;
 	text-align:left;
 	line-height: 1.5em;
 }
 
 li {
-	color: #7B7C94;
+	color: #8A8A8A;
 	font-size: 19px;
 	line-height: 1.5em;
 	font-weight: 100px;
 }
 
 a {
-	color: #FFC435;
+	color: #ffffff;
+	text-shadow: .5px 1px #FFD700;
 	font-weight: 200;
 	font-size: 22px;
+	background: #FFC435;
+	padding: 10px 20px 10px 20px;
+	border: 1px #FFFACD solid;
+	text-decoration: none;
 }
