@@ -5,9 +5,15 @@ body {
 }
 
 .wrapper {
-	width: auto;
+	max-width: auto;
 	margin: auto;
 	background: #fff;
+}
+
+#body {
+	max-width: 900px;
+	text-align: center;
+	margin: auto;
 }
 
 #hero{
@@ -82,7 +88,6 @@ h2 {
 }
 
 #litter_pick {
-	background-color: #fff;
 	width: 100%;
 	padding: 10px;
 	text-align: center;
