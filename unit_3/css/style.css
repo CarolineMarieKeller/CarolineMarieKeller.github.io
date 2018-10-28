@@ -1,17 +1,15 @@
-@import <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+@import url(https://fonts.googleapis.com/css?family=Lobster|Roboto);
 
 body {
-	font-family: 'Acme', Arial, sans serif;
+	font-family: 'Lobster', sans serif; 
 }
 
 #hero{
 	width: 100%;
-	background: linear-gradient(rgba(198,91,43,0.3),rgba(198,91,43,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
+	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-size: cover;
-	background-position: center top;
-	text-align: right;
-	font-weight: bold;
-	height: 450px;
+	background-position: center bottom;
+	height: 500px;
 	margin: 0;
 	padding: 0;
 }
@@ -30,10 +28,14 @@ ul {
 	text-align: right;
 	margin: 0px;
 	padding: 20px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: 450;
+	text-shadow: 1.75px 1.75px #000;
 }
 
 #mainmenu li {
-	color: #FFC435;
+	color: #FFF;
 	display: inline;
 	padding: 20px;
 	margin: 0px;
@@ -44,8 +46,12 @@ ul {
 }
 
 #heroname{
-	color: #FFC435;
+	color: #FFC0CB;
 	padding: 50px;
+	font-weight: 550;
+	letter-spacing: 1.5px;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px #000;
 }
 
 h1 {
@@ -55,12 +61,14 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-weight: 300;
 }
 
 #slogan {
-	font-style: italic;
+	font-style: none;
 	color: #fff;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	text-shadow: 1.75px 1.75px #000;
 }
 
 #litter_pick {
@@ -97,33 +105,39 @@ img {
 }
 
 h3 {
-	color: #FFC435;
+	color: #FFC0CB;
 	text-align: center;
-	font-size: 22px;
-	font-weight: 600;
+	font-size: 28px;
+	font-weight: 100;
 }
 
 .justify {
+	font-family: 'Roboto', Arial, sans serif;
 	color: #FFC435;
 	text-align: justify;
 	color: #7B7C94;
-	font-size: 18px;
+	font-size: 19px;
+	font-weight: 100px;
 	margin: 0 20px 0 20px;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 #list {
+	font-family: 'Roboto', Arial, sans serif;
 	color: #FFC435;
 	text-align:left;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 li {
 	color: #7B7C94;
-	font-size: 18px;
-	line-height: 2em;
+	font-size: 19px;
+	line-height: 1.5em;
+	font-weight: 100px;
 }
 
 a {
-	color: #FF96B8;
+	color: #FFC435;
+	font-weight: 200;
+	font-size: 22px;
 }
