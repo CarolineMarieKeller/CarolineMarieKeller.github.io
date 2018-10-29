@@ -255,3 +255,9 @@ footer {
 	font-size: 22px;
 	color: #FFC0CB;
 }
+
+#navfooter {
+	position: center;
+	margin: 0;
+	padding: 0;
+}
