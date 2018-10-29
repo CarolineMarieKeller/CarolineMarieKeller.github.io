@@ -2,21 +2,26 @@
 
 body {
 	font-family: 'Lobster', sans-serif; 
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
 	max-width: auto;
-	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 	background: #fff;
 }
 
-#body {
+nav {
 	max-width: 900px;
 	text-align: center;
 	margin: auto;
 }
 
-#hero{
+header {
 	width: 100%;
 	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-size: cover;
@@ -26,9 +31,10 @@ body {
 	padding: 0;
 }
 
-nav {
+#header {
 	margin: 0;
   	padding: 0;
+  	display: inline;
 }
 
 ul {
@@ -36,7 +42,7 @@ ul {
 }
 
 .calltoaction{
-	margin: 50px 10px 30px 10px;
+	margin: 50px 10px 40px 10px;
 	text-align: center;
 }
 
@@ -108,7 +114,7 @@ h2 {
 	height: 200px;
 	background-color: #000;
 	background-position: center;
-	margin: 10px;
+	margin: 0;
 }
 
 #second_steve {
@@ -121,8 +127,13 @@ hr {
 	margin: auto;
 }
 
+.line{
+	border-color: #000000;
+	background-color: #000000;
+}
+
 img {
-	height: 40%;
+	height: 100%;
 }
 
 h3 {
@@ -171,7 +182,66 @@ a {
 	font-size: 22px;
 	background: #FFC435;
 	padding: 10px 20px 10px 20px;
+	margin: 0;
 	border: 1px #FFFACD solid;
 	text-decoration: none;
 	text-align: center;
+}
+
+footer {
+	background-color: #000;
+	padding: 20px 0 20px 0;
+	margin: 0;
+}
+
+.footer{
+	align-items: center;
+	color: #8A8A8A;
+	width: auto;
+	margin: 0;
+}
+
+.footerheader {
+	color: #FFC0CB;
+	text-align: center;
+	padding: 10px;
+}
+
+#footer1 {
+	font-family: 'Roboto', Arial, sans-serif;
+	text-align: left, center;
+	align-items: left;
+	display:inline;
+	padding: 10px 100px 10px 100px;
+}
+
+#footer2 {
+	font-family: 'Roboto', Arial, sans-serif;
+	text-align: center;
+	align-items: center;
+	display: inline;
+	padding: 10px 100px 10px 100px;
+	color: #8A8A8A;
+}
+
+#footer3 {
+	text-align: right;
+	align-items: right;
+	padding: 10px 100px 10px 100px;
+}
+
+#facebook{
+	width: 40px;
+	height: auto;
+	text-align: right;
+}
+
+#headerfooter1{
+	font-family: 'Lobster', Arial, sans-serif;
+	color: #FFC0CB;
+}
+
+#headerfooter2{
+	font-family: 'Lobster', Arial, sans-serif;
+	color: #FFC0CB;
 }
