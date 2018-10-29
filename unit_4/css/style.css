@@ -209,6 +209,7 @@ footer {
 
 #footer1 {
 	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 19px;
 	text-align: left, center;
 	align-items: left;
 	display:inline;
@@ -217,6 +218,7 @@ footer {
 
 #footer2 {
 	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 19px;
 	text-align: center;
 	align-items: center;
 	display: inline;
@@ -231,17 +233,25 @@ footer {
 }
 
 #facebook{
-	width: 40px;
+	width: 50px;
 	height: auto;
 	text-align: right;
 }
 
 #headerfooter1{
 	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
 	color: #FFC0CB;
 }
 
 #headerfooter2{
 	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
+	color: #FFC0CB;
+}
+
+#headerfooter3{
+	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
 	color: #FFC0CB;
 }
