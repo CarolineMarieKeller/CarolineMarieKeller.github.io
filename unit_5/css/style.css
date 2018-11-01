@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Roboto);
+
+body {
+	font-family: 'Lobster', sans-serif; 
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #fff;
+}
+
+main {
+	max-width: 900px;
+	text-align: center;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)),url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	background-color: #FFED74;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+aside {
+	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+#header {
+	margin: 0;
+  	padding: 0;
+  	display: inline;
+}
+
+ul {
+	list-style: none;
+}
+
+.calltoaction{
+	margin: 50px 10px 40px 10px;
+	text-align: center;
+}
+
+#mainmenu {
+	color: #FFC435;
+	text-align: right;
+	margin: 0px;
+	padding: 20px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-weight: 450;
+	text-shadow: 1.5px 1.5px #000;
+}
+
+span {
+	color: #FFC0CB;
+	font-family: 'Lobster', Arial, sans-serif;
+}
+
+#mainmenu li {
+	color: #FFF;
+	display: inline;
+	padding: 20px;
+	margin: 0px;
+}
+
+#mainmenu li a{
+	color: #FFC435;
+}
+
+#heroname{
+	color: #FFC0CB;
+	padding: 50px;
+	font-weight: 550;
+	letter-spacing: 1.5px;
+	font-size: 60px;
+	text-shadow: 1.5px 1.5px #000;
+}
+
+h1 {
+	text-align: center;
+	font-weight:400;
+}
+
+h2 {
+	text-align: center;
+}
+
+#slogan {
+	font-style: none;
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 1.5px;
+	text-shadow: 1.75px 1.75px #000;
+}
+
+#litter_pick {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+#litter {
+	text-align: center;
+}
+
+.orphans {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+	background-position: center;
+	margin: 0;
+}
+
+#second_steve {
+	background: url(https://scontent-sjc3-1.cdninstagram.com/vp/309b0203824ee86decb57d472f656b03/5C52A0DA/t51.2885-15/e35/14145606_295898824107437_470656124_n.jpg) no-repeat;
+	background-size: cover;
+}
+
+hr {
+	max-width: 500px;
+	margin: auto;
+}
+
+.line{
+	border-color: #000000;
+	background-color: #000000;
+}
+
+img {
+	height: 100%;
+}
+
+h3 {
+	color: #FFC0CB;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 100;
+}
+
+.justify {
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #8A8A8A;
+	text-align: justify;
+	font-size: 19px;
+	font-weight: 100px;
+	margin: 0 20px 30px 20px;
+	line-height: 1.5em;
+}
+
+#list {
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #FFC435;
+	text-align:center;
+	line-height: 1.5em;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	color: #8A8A8A;
+	font-size: 19px;
+	line-height: 1.5em;
+	font-weight: 100px;
+}
+
+a {
+	color: #FFC435;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button{
+	color: #ffffff;
+	text-shadow: .5px 1px #FFD700;
+	font-weight: 200;
+	font-size: 22px;
+	background: #FFC435;
+	padding: 10px 20px 10px 20px;
+	margin: 0;
+	border: 1px #FFFACD solid;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 20px 0 20px 0;
+	margin: 0;
+}
+
+section {
+	background-color: #FFE2B8;
+}
+
+div {
+	background-color: #FFE2BB;
+}
+
+.footer{
+	align-items: center;
+	color: #8A8A8A;
+	width: auto;
+	margin: 0;
+}
+
+.footerheader {
+	color: #FFC0CB;
+	text-align: center;
+	padding: 10px;
+}
+
+#footer1 {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 19px;
+	text-align: left, center;
+	align-items: left;
+	display:inline;
+	padding: 10px 100px 10px 100px;
+}
+
+#footer2 {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 19px;
+	text-align: center;
+	align-items: center;
+	display: inline;
+	padding: 10px 100px 10px 100px;
+	color: #8A8A8A;
+}
+
+#footer3 {
+	text-align: right;
+	align-items: right;
+	padding: 10px 100px 10px 100px;
+}
+
+#facebook{
+	width: 50px;
+	height: auto;
+	text-align: right;
+}
+
+#headerfooter1{
+	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
+	color: #FFC0CB;
+}
+
+#headerfooter2{
+	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
+	color: #FFC0CB;
+}
+
+#headerfooter3{
+	font-family: 'Lobster', Arial, sans-serif;
+	font-size: 22px;
+	color: #FFC0CB;
+}
+
+#navfooter {
+	position: center;
+	margin: 0;
+	padding: 0;
+}
+
+.column {
+	float: left;
+	height: 250px;
+	margin: 30px;
+}
+
+.row{
+	text-align: center;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) (
+	.column (
+		width: 100%;)
+)
