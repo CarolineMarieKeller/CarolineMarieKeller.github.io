@@ -7,37 +7,64 @@ body {
 }
 
 header {
-	width: 100%;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+/*	width: 100%;
 	background-size: cover;
 	background-position: center bottom;
 	height: 500px;
 	margin: 0;
 	padding: 0;
-	background-color: #FFED74;
+	background-color: #FFED74;*/
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #E8c66A;
+	border: 1px black solid;
+	padding: 20px;
+/*	background-color: #E8C66A;*/
 }
 
 aside {
 	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	width: 300px;
 }
 
 article {
 	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	width: 300px;
 }
 
 footer {
 	background-color: #FF957E;
-	padding: 20px 0 20px 0;
-	margin: 0;
+	border: 1px black solid;
+	padding: 20px;
+/*	padding: 20px 0 20px 0;
+	margin: 0;*/
 }
 
-section {
+section, div {
 	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-div {
-	background-color: #FFE2BB;
+figure {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+figcaption {
+	background-color: #FAFAD2;
+	border: 1px black solid;
+	padding: 20px;
+	width: 60px;
 }
