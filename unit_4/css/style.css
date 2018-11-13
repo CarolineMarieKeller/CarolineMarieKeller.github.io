@@ -238,22 +238,21 @@ footer {
 	text-align: right;
 }
 
-#headerfooter1{
+.footerTitle{
 	font-family: 'Lobster', Arial, sans-serif;
 	font-size: 22px;
 	color: #FFC0CB;
+}
+#headerfooter1{
+	border: 1px solid red;
 }
 
 #headerfooter2{
-	font-family: 'Lobster', Arial, sans-serif;
-	font-size: 22px;
-	color: #FFC0CB;
+	border: 1px solid green;
 }
 
 #headerfooter3{
-	font-family: 'Lobster', Arial, sans-serif;
-	font-size: 22px;
-	color: #FFC0CB;
+	border: 1px solid blue;
 }
 
 #navfooter {
