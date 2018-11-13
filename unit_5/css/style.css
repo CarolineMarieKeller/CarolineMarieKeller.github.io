@@ -171,18 +171,9 @@ footer {
 	height: 100px;
 }
 
-.socialmedia {
-	background-color: #fff;
-	border: 1px black solid;
-	margin: 0;
-	width: 100px;
-	height: 100px;
+.socialMedia img{
 	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin: 0;
 }
-
-/*figcaption {
-	background-color: #FAFAD2;
-	border: 1px black solid;
-	padding: 20px;
-	width: 60px;
-}*/
