@@ -114,6 +114,10 @@ figure figcaption{
 	letter-spacing: 5px;
 }
 
+.buttonStyle{
+	margin: 50px;
+}
+
 hr {
 	max-width: 500px;
 	border-color: #000000;
@@ -123,6 +127,7 @@ hr {
 
 #sectionTwo {
 	display: inline-block;
+	vertical-align: top;
 }
 
 aside img{
@@ -130,6 +135,8 @@ aside img{
 	width: 40%;
 	height: 40%;
 	padding: 0 0 0 20px;
+	float: left;
+	margin: 40px;
 }
 
 article {
@@ -137,10 +144,14 @@ article {
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 20px;
 	padding: 30px;
-	margin: 10px;
+	margin: 20px;
 	width: auto;
 	text-align: justify;
 }
+
+/*#articleSection {
+	float: right;
+}*/
 
 #list {
 	list-style: none;
