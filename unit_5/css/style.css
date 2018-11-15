@@ -16,18 +16,35 @@ header{
 	width: auto;
 	text-align: right;
 	margin: 0;
+	padding: 20px 0 20px 0;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav {
+	margin: 0;
+	padding: 0;
 }
 
 .navList {
 	display: inline;
 	color: #FFF;
-	margin: 0 0 20 0;
-	padding: 20px;
+	margin: 10 0 10 0;
+	padding: 30px;
 	font-size: 18pt;
 	letter-spacing: 2px;
 	font-weight: 450;
 	text-shadow: 1.5px 1.5px #000;
 	list-style: none;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #FFC0CB;
 }
 
 #heroName {
@@ -57,9 +74,12 @@ span {
 	text-align: center;
 	font-size: 22pt;
 	padding: 10px;
-	margin: 30px;
 	clear: both;
 }
+
+/*#sectionOne {
+	heigth: 700px;
+}*/
 
 h3 {
 	font-size: 20px;
@@ -75,44 +95,34 @@ p {
 	line-height: 1.5em;
 }
 
-#row {
-	margin: 0 200 0 200;
-	position: center;
-}
-
-figure{
-	display: inline-block;
-	margin: 30px;
-	width: 40%;
-}
-
-figure img{
-	vertical-align: top;
-	width: 300px;
+.column {
+	width: 400px;
 	height: 300px;
+	padding: 0;
+	margin: 30px 0 50px 0;
+	text-align: center;
 }
 
-figure figcaption{
+div img {
+	vertical-align: top;
+	width: 250px;
+	height: 250px;
+}
+
+div figcaption {
 	font-family: 'Roboto', Arial, sans-serif;
 	color: #8A8A8A;
-	text-align: center;
 	padding: 20px;
 	font-weight: 100px;
 	font-size: 20px;
 	line-height: 1.5em;
 }
 
-#figureOne{
+#figureOne, #figureTwo, #figureThree {
 	float: left;
-	margin: 20px;
 }
 
-#figureTwo{
-	float: right;
-	margin: 20px;
-}
-
-.button{
+.button {
 	color: #ffffff;
 	text-shadow: .5px 1px #8A8A8A;
 	font-weight: 200;
@@ -126,6 +136,10 @@ figure figcaption{
 	clear: both;
 }
 
+.button:hover {
+	background-color: #FFC0CB;
+}
+
 hr {
 	max-width: 500px;
 	border-color: #000000;
@@ -133,10 +147,10 @@ hr {
 	margin: auto;
 }
 
+/*
 #sectionTwo {
-	display: inline-block;
 	vertical-align: top;
-}
+}*/
 
 aside img{
 	background background-size: cover;
@@ -155,11 +169,17 @@ article {
 	margin: 20px;
 	width: auto;
 	text-align: justify;
+	vertical-align: top;
 }
 
-/*#articleSection {
-	float: right;
-}*/
+.clearFix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 
 #list {
 	list-style: none;
@@ -171,8 +191,6 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
-/*	padding: 20px 0 20px 0;
-	margin: 0;*/
 }
 
 .footerSection {
@@ -182,19 +200,12 @@ footer {
 	width: 29%;
 }
 
-.column {
-	background-color: #fff;
-	border: 1px black solid;
-	padding: 20px;
-	width: 100px;
-	height: 100px;
-}
-
 .socialMedia img{
-	display: inline-block;
-	width: 50%;
-	height: 50%;
+	float: right;
+	width: 25%;
+	height: 25%;
 	margin: 0;
+	padding: 10px;
 }
 
 .clear {
