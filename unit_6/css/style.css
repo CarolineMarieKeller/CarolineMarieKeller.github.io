@@ -152,42 +152,20 @@ hr {
 
 /*aside img*/
 
-#two_column {
-	background-color: red;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	width: 30%;
+#left img{
+	background background-size: cover;
+	width: 40%;
+	height: 40%;
+	padding: 0 0 0 20px;
 	float: left;
-	border: 1px black solid;
-	padding: 20px;
+	margin: 40px;
 }
 
-#left img {
-	background-size: cover;
-	width: 100%;
-}
-
-#right {
+#right, article {
 	color: #8A8A8A;
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 20px;
-/*	margin: 20px;*/
-	width: 60%;
-	text-align: justify;
-/*	vertical-align: top;*/
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-}
-
-article {
-	color: #8A8A8A;
-	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 20px;
+	padding: 30px;
 	margin: 20px;
 	width: auto;
 	text-align: justify;
