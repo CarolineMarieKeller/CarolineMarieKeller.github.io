@@ -33,10 +33,9 @@ nav {
 .navList {
 	display: inline;
 	color: #FFF;
-	margin: 10 0 10 0;
 	padding: 30px;
 	font-size: 18pt;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 	font-weight: 450;
 	text-shadow: 1.5px 1.5px #000;
 	list-style: none;
@@ -46,13 +45,15 @@ nav {
 a:hover {
 	background-color: #FFC0CB;
 	border: 1px #FFCA78 solid;
+	border-radius: 15px;
+	padding: 15px;
 }
 
 #heroName {
 	color: #FFC0CB;
 	padding: 50px;
 	font-weight: 550;
-	letter-spacing: 1.5px;
+	letter-spacing: 5px;
 	font-size: 60px;
 	text-shadow: 1.5px 1.5px #000;
 	text-align: center;
@@ -84,6 +85,7 @@ span {
 
 h3 {
 	font-size: 20px;
+	letter-spacing: 5px;
 }
 
 p {
@@ -128,12 +130,13 @@ div figcaption {
 	font-weight: 200;
 	font-size: 22px;
 	background: #FFCA78;
-	padding: 20px 40px 20px 40px;
+	padding: 15px 25px 15px 25px;
 	border: 1px #FFFACD solid;
 	text-decoration: none;
 	text-align: center;
 	letter-spacing: 5px;
 	clear: both;
+	border-radius: 15px;
 }
 
 .button:hover {
