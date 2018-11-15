@@ -96,9 +96,10 @@ p {
 }
 
 .column {
-	width: 30%;
+	width: 400px;
 	padding: 6px;
-	margin: 30px 10px 50px 10px;
+	margin: 0 10px;
+	float: left;
 	text-align: center;
 }
 
@@ -117,7 +118,7 @@ div figcaption {
 }
 
 #figureOne, #figureTwo, #figureThree {
-	float: left;
+/*	float: left;*/
 }
 
 .button {
@@ -149,7 +150,9 @@ hr {
 	vertical-align: top;
 }*/
 
-aside img{
+/*aside img*/
+
+#left img{
 	background background-size: cover;
 	width: 40%;
 	height: 40%;
@@ -158,7 +161,7 @@ aside img{
 	margin: 40px;
 }
 
-article {
+#right, article {
 	color: #8A8A8A;
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 20px;
