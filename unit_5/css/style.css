@@ -153,15 +153,12 @@ hr {
 /*aside img*/
 
 #two_column {
-	background-color: red;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 #left {
 	width: 30%;
 	float: left;
-	border: 1px black solid;
 	padding: 20px;
 }
 
@@ -177,11 +174,9 @@ hr {
 /*	margin: 20px;*/
 	width: 60%;
 	text-align: justify;
-/*	vertical-align: top;*/
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 0 0 20 0;
 	float: right;
+	vertical-align: top;
 }
 
 article {
