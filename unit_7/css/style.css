@@ -11,7 +11,8 @@ header{
 	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)), url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-position: center bottom;
 	background-size: cover;
-	height: 500px;
+/*	height: 500px;*/
+	height: 30%;
 	width: auto;
 	text-align: right;
 	margin: 0;
@@ -136,7 +137,8 @@ div figcaption {
 }
 
 #figureOneMargin {
-	margin: 0 50px 20px 100px;
+/*	margin: 0 50px 20px 100px;*/
+	margin: 0 50px 20px 50px;
 }
 
 #nameOne {
@@ -144,15 +146,17 @@ div figcaption {
 }
 
 #figureTwoMargin {
-	margin: 0 75px 20px 75px;
+/*	margin: 0 75px 20px 75px;*/
+	margin: 0 45px 20px 45px;
 }
 
 #nameTwo {
-	margin: 0 50px 20px 50px;	
+	margin: 0 45px 20px 45px;	
 }
 
 #figureThreeMargin {
-	margin: 0 100px 20px 50px;
+/*	margin: 0 100px 20px 50px;*/
+	margin: 0 50px 20px 50px;
 }
 
 #nameThree {
@@ -192,7 +196,7 @@ div figcaption {
 	clear: both;
 	border-radius: 15px;
 	margin: 20px 100px 50px 100px;
-	width: 35%;
+/*	width: 35%;*/
 	display: inline-block;
 }
 
@@ -298,3 +302,29 @@ footer {
 .clear {
 	clear: both;
 }
+
+@media only screen and (max-width: 830px) {
+	.column {
+		float: none;
+		width: auto;
+		display: inline;
+	}
+
+@media only screen and (max-width: 500px) {
+	.navList {
+		width: auto;
+		display: block;
+	}
+
+	nav a {
+		width: 100%;
+		display: block;
+	}
+
+		body {
+		font-size: 45px;
+	}
+
+/*	.button {
+		padding: 85%;
+	}*/
