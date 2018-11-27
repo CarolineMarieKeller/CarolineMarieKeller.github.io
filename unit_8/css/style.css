@@ -61,11 +61,12 @@ nav a:hover  {
 
 #heroName {
 	color: #FFC0CB;
-	padding: 15% 2% .5%;
+	padding: 2%;
 	font-weight: 550;
 	letter-spacing: 5px;
 	font-size: 3em;
 	text-shadow: 1.5px 1.5px #000;
+	margin: 10% 0 0 0;
 	text-align: center;
 }
 
@@ -316,7 +317,7 @@ footer {
 	div img {
 		border-radius: 0;
 	}
-	
+
 	#spacerOne {
 		margin: 25px 0 25px 0;
 	}
@@ -353,7 +354,7 @@ footer {
 		text-align: center;
 		font-size: 20pt;
 		padding: auto;
-		line-height: 1em;
+		line-height: 55px;
 	}
 
 	nav a {
@@ -361,7 +362,7 @@ footer {
 		display: block;
 		margin: 0;
 		padding: auto;
-		line-height: 1em; 
+		line-height: 55px;
 	}
 
 	#tab {
@@ -378,6 +379,14 @@ footer {
 		text-align: center;
 		font-size: 2.5em;
 		margin: auto;
+		width: auto;
+		line-height: 70px;
+	}
+
+	#slogan {
+		padding: auto;
+		line-height: auto;
+		width: auto;
 	}
 
 	header {
