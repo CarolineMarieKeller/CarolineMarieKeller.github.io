@@ -13,13 +13,10 @@ header{
 	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)), url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-position: center bottom;
 	background-size: cover;
-/*	height: 500px;*/
 	height: 35em;
-/*	width: auto;*/
 	text-align: right;
 	margin: 0;
 	padding: 0;
-/*	padding: 5px 0 20px 0;*/
 }
 
 #headerButton {
@@ -35,29 +32,25 @@ header{
 
 nav {
 	margin: 0;
-	padding: 8pt 0 12pt 0;
+	padding: 8px 0 8px 0;
 }
 
 .navList {
 	display: inline;
 	color: #FFF;
-/*	padding: 30px 30px 30px 10px;*/
-/*	font-size: 18pt;*/
 	font-size: 1.2em;
 	letter-spacing: 5px;
 	font-weight: 450;
 	text-shadow: 1.5px 1.5px #000;
 	list-style: none;
 	text-decoration: none;
-/*	padding: 30px 25px 15px 25px;*/
-	padding: 4% 4% 2.5%;
+	padding: 4% 4% 2.5% 4%;
 	margin: 0;
 }
 
 nav a:hover  {
 	background-color: #FFC0CB;
 	border: 1px #FFCA78 solid;
-/*	padding: 30px 25px 15px 25px;*/
 	padding: 4% 3.9% 2.5%;
 	letter-spacing: 5px;
 }
@@ -113,8 +106,7 @@ p {
 	text-align: center;
 	font-size: 1em;
 	font-weight: 100px;
-/*	margin: 0 20px 30px 20px;
-*/	margin: 0 10% 3%;
+	margin: 0 10% 3%;
 	line-height: 1em;
 }
 
@@ -163,53 +155,19 @@ div figcaption {
 
 
 #figureOneMargin #nameOne {
-/*	margin: 0 50px 20px 100px;*/
 	margin: auto;
 	text-align: center;
 }
-
-/*#nameOne {
-	margin: 0 50px 20px 50px;
-}*/
 
 #figureTwoMargin #nameTwo {
-/*	margin: 0 75px 20px 75px;*/
 	margin: auto;
 	text-align: center;
 }
-/*
-#nameTwo {
-	margin: 0 45px 20px 45px;	
-}
-*/
+
 #figureThreeMargin #nameThree{
-/*	margin: 0 100px 20px 50px;*/
 	margin: auto;
 	text-align: center;
 }
-/*
-#nameThree {
-	margin: 0 50px 20px 50px;
-}
-*/
-/*#figureThree {
-	margin: 0 100px 0 50px;
-	width: 250px;
-	border: 2px dotted #D3D3D3;
-	border-radius: 15px;
-	display: inline-block;
-}*/
-
-/*.meetMe {
-	font-family: 'Lobster', Arial, sans-serif;
-	font-size: 20px;
-	color: #FFCA78;
-	padding: 50px;
-}
-
-.meetMe:hover {
-	color: #FFC0CB;
-}*/
 
 .button {
 	color: #ffffff;
@@ -217,8 +175,6 @@ div figcaption {
 	font-weight: 200;
 	font-size: 1em;
 	background: #FFCA78;
-/*	padding: 15px 25px 15px 25px;*/
-/*	padding: 25pt;*/
 	padding: 15pt 10pt 15pt 10pt;
 	border: 1px #FFFACD solid;
 	text-decoration: none;
@@ -226,9 +182,6 @@ div figcaption {
 	letter-spacing: 5px;
 	clear: both;
 	border-radius: 15px;
-/*	margin: 20px 100px 50px 100px;*/
-/*	width: 35%;*/
-/*	margin: 0 25% 25%;*/
 	width: 200pt;
 	margin: 3% 0;
 	display: inline-block;
@@ -245,13 +198,6 @@ hr {
 	border: .70px dashed #7B8A9E;
 }
 
-/*
-#sectionTwo {
-	vertical-align: top;
-}*/
-
-/*aside img*/
-
 #two_column {
 	width: 100%;
 	margin: 2% 1% 4% 1%;
@@ -260,7 +206,6 @@ hr {
 #left {
 	float: left;
 	padding: 0;
-/*	max-width: 25%;*/
 	width: 40%;
 	margin: 2% 1.5% 1.5%;
 }
@@ -283,14 +228,6 @@ hr {
 	margin: 0 2% 0 0;
 }
 
-/*article {
-	color: #8A8A8A;
-	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 1em;
-/*	text-align: justify;*/
-/*	vertical-align: top;*/
-/*}*/
-
 .clearFix:after {
 	visibility: hidden;
 	display: block;
@@ -311,7 +248,6 @@ hr {
 	list-style: none;
 	padding: 4% 30% 0;
 	width: auto;
-/*	text-align: center;*/
 }
 
 footer {
@@ -323,15 +259,10 @@ footer {
 
 .footerSection {
 	display: inline-block;
-/*	float: left;*/
 	color: #FFF;
 	vertical-align: top;
 	width: 33%;
 }
-/*
-#socialMediaFooter {
-	width: 100000px;
-}*/
 
 #Facebook {
 	margin: 5pt;
@@ -373,12 +304,13 @@ footer {
 		width: auto;
 		margin: 20pt;
 		padding: 0;
-/*		padding: 20pt 15pt 20pt 15pt;*/
 	}
+
 	.column {
 		float: none;
 		width: auto;
 		display: inline;
+	}
 }
 
 @media only screen and (max-width: 550px) {
@@ -391,12 +323,6 @@ footer {
 		display: inline;
 	}
 }
-/*@media only screen and (max-width: 830px) {
-	.column {
-		float: none;
-		width: auto;
-		display: inline;
-	}*/
 
 @media only screen and (max-width: 500px) {
 	.navList {
@@ -447,18 +373,3 @@ footer {
 		padding: 0;
 	}
 }
-
-/*
-@media only screen and (min-width: 700px) {
-	.button {
-		width: 100%;
-		display: block;
-	}
-
-	a {
-		width: 100%;
-	}*/
-
-/*	.button {
-		padding: 85%;
-	}*/
