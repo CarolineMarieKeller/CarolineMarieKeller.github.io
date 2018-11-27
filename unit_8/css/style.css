@@ -311,6 +311,10 @@ footer {
 		width: auto;
 		display: inline;
 	}
+
+	p {
+		padding: 10px 10px 30px 10px;
+	}
 }
 
 @media only screen and (max-width: 550px) {
@@ -365,7 +369,7 @@ footer {
 	}
 
 	#sectionOne {
-		margin: 60px 0 75px 0;
+		margin: 50px 0 75px 0;
 	}
 
 	.wrapper {
