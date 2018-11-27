@@ -309,7 +309,24 @@ footer {
 	.column {
 		float: none;
 		width: auto;
-		display: inline;
+		margin: auto;
+/*		display: inline;*/
+	}
+
+	div img {
+		border-radius: 0;
+	}
+	
+	#spacerOne {
+		margin: 25px 0 25px 0;
+	}
+
+	#spacerTwo {
+		margin: 25px 0 25px 0;
+	}
+
+	#spacerThree {
+		margin: 25px 0 25px 0;
 	}
 
 	p {
