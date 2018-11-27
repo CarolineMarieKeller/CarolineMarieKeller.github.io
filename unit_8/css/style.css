@@ -245,7 +245,7 @@ hr {
 	color: #8A8A8A;
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 1em;
-	list-style: none;
+	list-style: circle;
 	padding: 4% 30% 0;
 	width: auto;
 }
@@ -371,5 +371,12 @@ footer {
 	.wrapper {
 		margin: 0;
 		padding: 0;
+	}
+
+	#list {
+		width: auto;
+		text-align: left;
+		list-style: circle;
+		margin: auto;
 	}
 }
