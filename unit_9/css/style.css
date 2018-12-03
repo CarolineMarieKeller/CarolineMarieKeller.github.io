@@ -30,12 +30,12 @@ body{
 }
 
 #about {
-	background-image: url(https://carolinemariekeller.github.io/unit_9/images/steveonfloor.jpg);
+	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)), url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
+	background-position: center bottom;
 	background-size: cover;
-	position: bottom;
-	height: 500px;
+	height: 300px;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 15px 0;
 	text-align: right;
 }
 
@@ -65,10 +65,23 @@ nav a:hover  {
 }
 
 #aboutName {
-	padding: 4% 28% 2.5% 1%;
-	margin: 0;
-	font-size: 1.8em;
+	padding: 0 10% 2.5% 1%;
+	margin: 0 175px 0 0;
+	font-size: 2em;
 	color: #FFC0CB;
+}
+
+.aboutButton {
+	display: inline;
+	color: #8A8A8A;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	font-weight: 450;
+	text-shadow: 1.5px 1.5px #000;
+	list-style: none;
+	text-decoration: none;
+	padding: 4% 4% 2.5% 4%;
+	margin: 0;
 }
 
 #aboutName:hover {
@@ -96,6 +109,18 @@ nav a:hover  {
 	text-shadow: 1.5px 1.5px #000;
 	margin: 10% 0 0 0;
 	text-align: center;
+}
+
+#aboutHero {
+	color: #FFC0CB;
+	padding: 2%;
+	font-weight: 550;
+	letter-spacing: 5px;
+	font-size: 3em;
+	text-shadow: 1.5px 1.5px #000;
+	margin: 10% 0 0 0;
+	text-align: center;
+	background-color: transparent;
 }
 
 #slogan {
@@ -145,6 +170,39 @@ p {
 	padding: 0;
 	float: left;
 	text-align: center;
+}
+
+.aboutImages {
+	width: 32%;
+	display: inline-block;
+	margin: 10px 05px 10px 10px;
+	border: 2px #FFCA78 solid;
+	border-radius: 5px;
+}
+
+.aboutOne {
+	margin: 15px 10px 10px 10px;
+}
+
+.aboutMain {
+	margin: 20px 0 20px 0;
+}
+.aboutArticle {
+	width: 64%;
+	padding: 5px;
+	height: 950px;
+	border: 2px #FFCA78 solid;
+	border-radius: 5px;
+	margin: 10px 10px 10px 5px;
+	float: right;
+}
+
+.aboutP {
+	text-align: justify;
+	width: auto;
+	margin: 0;
+	padding: 10px 20px 20px 20px;
+	line-height: 30px;
 }
 
 .spacer {
