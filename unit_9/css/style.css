@@ -185,12 +185,12 @@ p {
 }
 
 .aboutMain {
-	margin: 20px 0 20px 0;
+	margin: 50px 0 75px 0;
 }
 .aboutArticle {
 	width: 64%;
 	padding: 5px;
-	height: 950px;
+	height: 935px;
 	border: 2px #FFCA78 solid;
 	border-radius: 5px;
 	margin: 10px 10px 10px 5px;
