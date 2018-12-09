@@ -71,30 +71,19 @@ nav a:hover {
 }
 
 #aboutName {
-	padding: 10pt 20pt 10pt 20pt;
+	padding: 15pt 10pt 15pt 10pt;
 	margin: 10px;
-	font-size: 2em;
-	color: #FFC0CB;
+	font-size: 1.7em;
+	color: #FFF;
 	float: left;
 }
 
-.aboutButton {
-	display: inline;
-	color: #8A8A8A;
-	font-size: 1.5em;
-	letter-spacing: 5px;
-	font-weight: 450;
-	text-shadow: 1.5px 1.5px #000;
-	list-style: none;
-	text-decoration: none;
-	padding: 4% 4% 2.5% 4%;
-	margin: 0;
-}
-
 #aboutName:hover {
-	color: #FFCA78;
-	background-color: transparent;
-	border: none;
+	background-color: #FFC0CB;
+	padding: 15pt 10pt 15pt 10pt;
+	border: 1px #FFFACD solid;
+	margin: 10px;
+	font-size: 1.7em;
 }
 
 #familyNav {
@@ -174,6 +163,11 @@ p {
 	padding: 0;
 	float: left;
 	text-align: center;
+}
+
+
+#aboutNav {
+	margin: 10px 0 0 0;
 }
 
 .aboutImages {
@@ -363,6 +357,10 @@ footer {
 	width: 100%;
 }
 
+#footerAddress {
+	line-height: 40px;
+}
+
 .footerSection {
 	display: inline-block;
 	color: #FFF;
@@ -491,7 +489,7 @@ footer {
 	.navList {
 		width: 100%;
 		display: block;
-		margin: 0 0 10pt 0;
+		margin: 10pt 0 10pt 0;
 		text-align: center;
 		font-size: 1.5em;
 		padding: auto;
@@ -579,6 +577,24 @@ footer {
 	#about {
 		height: 110%;
 	}
+
+	#aboutName {
+	padding: 15pt 10pt 15pt 10pt;
+	margin: 10px;
+	font-size: 1.5em;
+	color: #FFF;
+	width: 85%;
+	}
+
+	#aboutName:hover {
+	background-color: #FFC0CB;
+	padding: 15pt 10pt 15pt 10pt;
+	border: 1px #FFFACD solid;
+	margin: 10px;
+	font-size: 1.5em;
+	width: 85%;
+	}
+
 }
 
 
