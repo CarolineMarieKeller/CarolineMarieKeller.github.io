@@ -187,6 +187,7 @@ p {
 /*	position: relative;*/
 	margin: 20px 20px 10px 20px;
 	float: left;
+	border-radius: 5px;
 }
 
 #aboutThree img {
