@@ -525,6 +525,51 @@ footer {
 	#about {
 		height: 110%;
 	}
+
+	body {
+		font-size: 20px;
+	}
+
+	#heroName {
+		text-align: center;
+		font-size: 2.5em;
+		margin: auto;
+		width: auto;
+		line-height: 70px;
+	}
+
+	#slogan {
+		padding: auto;
+		line-height: auto;
+		width: auto;
+	}
+
+	header {
+		height: 38em;
+		margin: 0;
+	}
+
+	#sectionOne {
+		margin: 50px 0 75px 0;
+	}
+
+	.wrapper {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#list {
+		width: auto;
+		text-align: left;
+		list-style: circle;
+		margin: auto;
+	}
+
+	#aboutHero {
+		margin: 30pt 0 10pt 0;
+		padding: auto;
+	}
 }
 
 @media only screen and (max-width: 860px) {
@@ -578,7 +623,7 @@ footer {
 		color: #FFCA78;
 	}*/
 
-	body {
+	/*body {
 		font-size: 20px;
 	}
 
@@ -623,7 +668,7 @@ footer {
 		padding: auto;
 	}
 
-
+*/
 
 /*	#aboutName {
 	padding: 15pt 10pt 15pt 10pt;
