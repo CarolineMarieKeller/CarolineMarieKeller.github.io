@@ -211,7 +211,7 @@ p {
 }
 
 .aboutP {
-	text-align: right;
+	text-align: left;
 	width: auto;
 	margin: 0;
 	padding: 10px 20px 20px 20px;
@@ -323,7 +323,7 @@ hr {
 	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 1em;
 	width: 50%;
-	text-align: right;
+	text-align: left;
 	padding: 2% 1.5% 0 3%;
 	float: right;
 	margin: 0 2% 0 0;
