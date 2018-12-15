@@ -482,12 +482,6 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
-	.wrapper {
-		width: 100%;
-		margin: 0;
-		padding: ;
-	}
-
 	.aboutP {
 		padding: 0;
 		margin: 20pt;
@@ -505,7 +499,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
 	.navList {
 		width: 100%;
 		display: block;
@@ -616,7 +610,7 @@ footer {
 	width: 85%;
 	}
 
-}
+}*/
 
 
 @media (min-width: 700px) {
