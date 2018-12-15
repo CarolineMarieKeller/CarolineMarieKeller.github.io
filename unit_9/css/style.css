@@ -487,6 +487,11 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
+	.wrapperAbout {
+		width: auto;
+		margin: 0;
+	}
+
 	.aboutP {
 		padding: 0;
 		margin: 20pt;
