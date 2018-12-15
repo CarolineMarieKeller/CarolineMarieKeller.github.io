@@ -47,7 +47,7 @@ nav {
 .navList {
 	display: inline;
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 2em;
 	letter-spacing: 3px;
 	font-weight: 450;
 	text-shadow: 1.5px 1.5px #000;
@@ -504,26 +504,26 @@ footer {
 	}
 
 	nav a:hover {
-	color: #FFCA78;
-	font-size: 2em;
+		color: #FFCA78;
+		font-size: 2em;
 	}
 
 	#aboutName {
-	float: none;
-	margin-left: 70pt;
-	margin-right: 70pt;
+		float: none;
+		margin-left: 70pt;
+		margin-right: 70pt;
 	}
 
 	#aboutName:hover {
-	background-color: #FFC0CB;
-	padding: 15pt 10pt 15pt 10pt;
-	border: 1px #FFFACD solid;
-	margin-left: 70pt;
-	margin-right: 70pt;
+		background-color: #FFC0CB;
+		padding: 15pt 10pt 15pt 10pt;
+		border: 1px #FFFACD solid;
+		margin-left: 70pt;
+		margin-right: 70pt;
 	}
 
 	#about {
-	height: 110%;
+		height: 110%;
 	}
 }
 
@@ -578,7 +578,7 @@ footer {
 		color: #FFCA78;
 	}*/
 
-	body {
+/*	body {
 		font-size: 20px;
 	}
 
@@ -621,7 +621,7 @@ footer {
 	#aboutHero {
 		margin: 30pt 0 10pt 0;
 		padding: auto;
-	}
+	}*/
 
 
 
