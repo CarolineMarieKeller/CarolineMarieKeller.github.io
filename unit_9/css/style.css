@@ -481,6 +481,12 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
+	.wrapper {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
 	.aboutP {
 		font-size: 1.5em;
 		padding: 0;
