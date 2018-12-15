@@ -556,7 +556,7 @@ footer {
 	.wrapper {
 		margin: 0;
 		padding: 0;
-		width: 100%;
+		width: auto;
 	}
 
 	#list {
@@ -578,7 +578,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {*/
 /*	.navList {
 		width: 100%;
 		display: inline-block;
@@ -686,8 +686,8 @@ footer {
 	font-size: 1.5em;
 	width: 85%;
 	}*/
-
-}
+/*
+}*/
 
 @media (min-width: 700px) {
     nav a: hover {
