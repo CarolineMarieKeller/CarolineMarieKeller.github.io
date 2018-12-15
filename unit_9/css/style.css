@@ -216,6 +216,7 @@ p {
 	margin: 0;
 	padding: 10px 20px 20px 20px;
 	line-height: 30px;
+	font-size: 1em;
 }
 
 .spacer {
@@ -484,11 +485,10 @@ footer {
 	.wrapper {
 		width: 100%;
 		margin: 0;
-		padding: 0;
+		padding: ;
 	}
 
 	.aboutP {
-		font-size: 1.5em;
 		padding: 0;
 		margin: 20pt;
 	}
