@@ -514,15 +514,18 @@ footer {
 	}
 
 	#aboutName {
-		float: none;
+		margin-top: 20pt;
 		margin-left: 70pt;
 		margin-right: 70pt;
+		display: inline-block;
+		float: none;
 	}
 
 	#aboutName:hover {
 		background-color: #FFC0CB;
 		padding: 15pt 10pt 15pt 10pt;
 		border: 1px #FFFACD solid;
+		margin-top: 20pt;
 		margin-left: 70pt;
 		margin-right: 70pt;
 	}
