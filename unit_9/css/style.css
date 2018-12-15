@@ -475,7 +475,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 550px) {
+/*@media only screen and (max-width: 550px) {
 	.footerSection {
 		display: inline;
 		margin: 5pt 10pt 10pt 10pt;
@@ -484,14 +484,23 @@ footer {
 	.socialMedia {
 		display: inline;
 	}
-}
+}*/
 
 @media only screen and (max-width: 750px) {
-	.wrapperAbout {
+/*	.wrapperAbout {
 		width: auto;
 		margin: 0;
+	}*/
+
+	.footerSection {
+		display: inline;
+		margin: 5pt 10pt 10pt 10pt;
 	}
 
+	.socialMedia {
+		display: inline;
+	}
+	
 	.aboutP {
 		padding: 0;
 		margin: 20pt;
