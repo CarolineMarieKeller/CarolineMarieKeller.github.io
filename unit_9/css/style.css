@@ -491,7 +491,15 @@ footer {
 		font-size: 2em;
 		padding: 0;
 	}
+}
 
+@media only screen and (max-width: 860px) {
+	#familyNav #aboutName{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 500px) {
 	.navList {
 		width: 100%;
 		display: block;
@@ -601,12 +609,7 @@ footer {
 	font-size: 1.5em;
 	width: 85%;
 	}
-}
 
-@media only screen and (max-width: 860px) {
-	#familyNav #aboutName{
-		text-align: center;
-	}
 }
 
 
