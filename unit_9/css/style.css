@@ -480,6 +480,19 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 750px) {
+	.aboutP {
+		font-size: 2em;
+		padding: 0;
+		margin: 20pt;
+	}
+
+	.subheaders {
+		font-size: 2.5em;
+		padding: 0;
+	}
+}
+
 @media only screen and (max-width: 860px) {
 	#familyNav #aboutName{
 		text-align: center;
