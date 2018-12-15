@@ -19,6 +19,11 @@ body{
 	padding: 5px 0 0 0;
 }
 
+.wrapperAbout {
+	margin: 0;
+	padding: 0;
+}
+
 #headerButton {
 	margin: 0 0 25px 0;
 }
