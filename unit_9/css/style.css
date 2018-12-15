@@ -13,7 +13,7 @@ body{
 	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)), url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-position: center bottom;
 	background-size: cover;
-	height: 35em;
+	height: 38em;
 	text-align: right;
 	margin: 0;
 	padding: 5px 0 0 0;
@@ -491,6 +491,40 @@ footer {
 		font-size: 2em;
 		padding: 0;
 	}
+
+	.navList {
+		width: 100%;
+		display: inline-block;
+		margin: 10pt 0 10pt 0;
+		text-align: center;
+		font-size: 2em;
+		padding: auto;
+		line-height: 55px;
+		border-radius: 0;
+	}
+
+	nav a:hover {
+	color: #FFCA78;
+	font-size: 2em;
+	}
+
+	#aboutName {
+	float: none;
+	margin-left: 70pt;
+	margin-right: 70pt;
+	}
+
+	#aboutName:hover {
+	background-color: #FFC0CB;
+	padding: 15pt 10pt 15pt 10pt;
+	border: 1px #FFFACD solid;
+	margin-left: 70pt;
+	margin-right: 70pt;
+	}
+
+	#about {
+	height: 110%;
+	}
 }
 
 @media only screen and (max-width: 860px) {
@@ -500,49 +534,49 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-	.navList {
+/*	.navList {
 		width: 100%;
-		display: block;
+		display: inline-block;
 		margin: 10pt 0 10pt 0;
 		text-align: center;
 		font-size: 1.5em;
 		padding: auto;
 		line-height: 55px;
 		border-radius: 0;
-	}
+	}*/
 
-	#familyNav {
+/*	#familyNav {
 		width: 100%;
 		display: block;
 		margin: auto;
 		text-align: center;
 		font-size: 18pt;
 		padding: auto;
-	}
+	}*/
 
-	nav a:hover {
+/*	nav a:hover {
 	color: #FFCA78;
 	font-size: 1.5em;
-	}
+	}*/
 
-	#aboutName {
+/*	#aboutName {
 		float: none;
-	}
+	}*/
 
-	#aboutUsNav {
+/*	#aboutUsNav {
 		width: 100%;
 		padding: auto;
 		border-radius: 0;
-	}
+	}*/
 
-	nav a {
+/*	nav a {
 		width: 100%;
 		display: block;
 		margin: 0;
 		padding: auto;
 		line-height: 55px;
 		color: #FFCA78;
-	}
+	}*/
 
 	body {
 		font-size: 20px;
@@ -589,29 +623,26 @@ footer {
 		padding: auto;
 	}
 
-	#about {
-		height: 110%;
-	}
 
-	#aboutName {
+
+/*	#aboutName {
 	padding: 15pt 10pt 15pt 10pt;
 	margin: 10px;
 	font-size: 1.5em;
 	color: #FFF;
 	width: 85%;
-	}
+	}*/
 
-	#aboutName:hover {
+/*	#aboutName:hover {
 	background-color: #FFC0CB;
 	padding: 15pt 10pt 15pt 10pt;
 	border: 1px #FFFACD solid;
 	margin: 10px;
 	font-size: 1.5em;
 	width: 85%;
-	}
+	}*/
 
 }
-
 
 @media (min-width: 700px) {
     nav a: hover {
