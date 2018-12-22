@@ -495,7 +495,11 @@ footer {
 		margin: 0;
 	}*/
 	.slider img{
-	width: 100%;
+		width: 100%;
+	}
+
+	.slider figcaption {
+		font-size: 20px;
 	}
 	
 	.button {
