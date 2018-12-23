@@ -13,6 +13,23 @@ body{
 	width: 30%;
 }
 
+label {
+	display: none;
+	padding: 20px 0 20px 20px;
+}
+
+#toggle{
+  display:none;
+}
+
+.bar{
+  width:25px;
+  height:4px;
+  margin:2px;
+  background-color:black;
+  border: 1px solid #FFC0CB;
+}
+
 #home {
 	background: linear-gradient(rgba(240,240,240,0.3),rgba(251,251,251,0.3)), url(https://scontent-sjc3-1.cdninstagram.com/vp/1c52bca64538334e5249b160bf6df726/5C80D0BF/t51.2885-15/e35/42704227_2258914337471477_1538270502343276520_n.jpg) no-repeat;
 	background-position: center bottom;
@@ -51,6 +68,11 @@ body{
 nav {
 	margin: 0;
 	padding: 8px 0 8px 0;
+	float: right;
+}
+
+nav a {
+	margin: 20px;
 }
 
 .navList {
@@ -337,14 +359,13 @@ hr {
 	margin: 0 2% 0 0;
 }
 
-.clearFix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-/*	clear: both;*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 #sectionThree {
@@ -565,7 +586,7 @@ footer {
 	#heroName {
 		text-align: center;
 		font-size: 2.5em;
-		margin: auto;
+		margin: 175px 0 0 0;
 		width: auto;
 		line-height: 70px;
 	}
@@ -730,4 +751,26 @@ footer {
 		padding: 4% 2.9% 2% 2.9%;
 		letter-spacing: 3px;
 	}
+}
+
+@media screen and (max-width:500px){
+  
+ 	nav{
+    	display:none;
+  }
+  
+ 	nav a{
+    	display:block;
+  }
+  
+  	label{
+	    display:block;
+	    float: right;
+	    margin: 10px 20px 0 20px;
+  }
+
+  	#toggle:checked + nav{
+	    display:block;
+	    clear:both;
+  }
 }
