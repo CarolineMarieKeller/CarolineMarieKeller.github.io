@@ -785,7 +785,7 @@ footer {
 	}
 }
 
-@media screen and (max-width:500px){
+@media only screen and (max-width:500px){
   
  	nav{
     	display:none;
@@ -805,4 +805,11 @@ footer {
 	    display:block;
 	    clear:both;
   }
+}
+
+@media only screen and (max-width: 1200px) {
+	#aboutName{
+		text-align: center;
+		margin: 0;
+	}
 }
