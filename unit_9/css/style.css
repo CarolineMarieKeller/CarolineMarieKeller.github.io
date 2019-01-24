@@ -531,6 +531,22 @@ footer {
 		width: 100%;
 	}
 
+	div figcaption {
+		font-size: 1em !important;
+	}
+
+	#nameOne {
+		font-size: 1em !important;
+	}
+
+	#nameTwo {
+		font-size: 1em !important;
+	}
+
+	#nameThree {
+		font-size: 1em !important;
+	}
+
 	.button {
 		width: 80%;
 		font-size: 1em;
@@ -560,7 +576,7 @@ footer {
 		display: inline-block;
 		margin: 10px 0 10px 0;
 		text-align: center;
-		font-size: 2em !important;
+		font-size: 2em;
 		padding: auto;
 		line-height: 55px;
 		border-radius: 0;
