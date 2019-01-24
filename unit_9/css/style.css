@@ -560,7 +560,7 @@ footer {
 		display: inline-block;
 		margin: 10px 0 10px 0;
 		text-align: center;
-		font-size: 2em;
+		font-size: 2em  !important;
 		padding: auto;
 		line-height: 55px;
 		border-radius: 0;
