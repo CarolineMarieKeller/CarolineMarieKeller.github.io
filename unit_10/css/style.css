@@ -31,6 +31,7 @@ img {
 	width: 600px;
 	display: inline;
 	margin: 0;
+	padding: 0;
 }
 
 #left {
@@ -38,6 +39,7 @@ img {
 	border: 1.5px solid #000;
 	width: 100%;
 	margin: 0;
+	padding: 0;
 }
 
 #right {
@@ -45,26 +47,21 @@ img {
 	border: 1.5px solid #000;
 	width: 100%;
 	margin: 0;
+	padding: 0;
 }
 
 figcaption{
 	font-family: 'Roboto', sans-serif;
 	width: 600px;
+	font-weight: 200px;
 }
 
 #top {
 	float: right;
+	padding: 30px;
 }
 
 #bottom {
 	float: left;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+	padding: 30px;
 }
