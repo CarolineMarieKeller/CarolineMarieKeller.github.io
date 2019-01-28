@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto');
+
+
+body {
+	font-size: 20px;
+	color: #000000;
+	font-family: 'EB Garamond', serif;
+	background-color: #ffffff;
+}
+
+h1{
+	font-size: 24px;
+}
+
+h2{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr {
+	max-width: 100%;
+	border: .5px solid #85839C;
+}
+
+img {
+	border: .25px solid #85839C;
+}
+
+figcaption{
+	font-family: 'Roboto', sans-serif;
+}
