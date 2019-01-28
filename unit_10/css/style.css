@@ -6,10 +6,13 @@ body {
 	color: #000000;
 	font-family: 'EB Garamond', serif;
 	background-color: #ffffff;
+	text-align: center;
 }
 
 h1{
-	font-size: 24px;
+	font-size: 36px;
+	font-style: bold;
+	letter-spacing: 2px;
 }
 
 h2{
