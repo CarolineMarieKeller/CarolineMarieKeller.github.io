@@ -29,7 +29,8 @@ hr {
 
 img {
 	border: .25px solid #85839C;
-	width: 300px;
+	width: 600px;
+	display: inline;
 }
 
 #left {
@@ -42,6 +43,15 @@ img {
 
 figcaption{
 	font-family: 'Roboto', sans-serif;
+	width: 600px;
+}
+
+#top {
+	float: right;
+}
+
+#left {
+	float: left;
 }
 
 .clearfix:after {
