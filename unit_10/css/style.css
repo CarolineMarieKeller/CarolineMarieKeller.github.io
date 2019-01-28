@@ -31,6 +31,14 @@ img {
 	border: .25px solid #85839C;
 }
 
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
 figcaption{
 	font-family: 'Roboto', sans-serif;
 }
